@@ -14,7 +14,7 @@ const App = () => {
           <li> <Link to={'/women'} >Women</Link> </li>
         </ul>
         <Routes>
-          <Route path="/" element={<p>Index</p>} />
+          <Route path="/" element={<div>Index</div>} />
           <Route path="/women" element={<Women />} />
           <Route path='/women/:item' element={<Item />} />
         </Routes>
