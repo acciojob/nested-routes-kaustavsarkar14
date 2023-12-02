@@ -4,7 +4,7 @@ import Item from "./Item"
 
 const Women = () => {
     return (
-        <div>
+        <nav>
             <p>Women Items:</p>
             <ul>
                 <li><Link to={"/women/Grooming"} >Grooming</Link></li>
@@ -12,7 +12,7 @@ const Women = () => {
                 <li><Link to={"/women/Trouser"} >Trouser</Link></li>
                 <li><Link to={"/women/Jwellery"} >Jwellery</Link></li>
             </ul>
-        </div>
+        </nav>
     )
 }
 
